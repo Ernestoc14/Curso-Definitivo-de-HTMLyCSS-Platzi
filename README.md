@@ -1,2 +1,3 @@
 # HTMLyCSS_Platzi
-Curso de HTML y CSS en Platzi
+Curso Definitivode HTML y CSS en Platzi
+https://platzi.com/cursos/html-css/
