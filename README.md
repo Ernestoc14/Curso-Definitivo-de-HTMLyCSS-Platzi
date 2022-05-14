@@ -2,6 +2,7 @@
 Curso Definitivode HTML y CSS en Platzi
 https://platzi.com/cursos/html-css/
 
+Para comentarios usamos ctrl+/
 Etiquetas para manejo de:
 
 -Debemos comprimir la Img para que el peso sea menor y renderize mas rapido en el website
@@ -29,4 +30,10 @@ Videos: Muestra videos,
 Etiqueta Source: para poner videos de diferentes 
         formatos y se pone el src del video.
 
-Formularios: 
+Formularios: --------
+        Etiqueta Forms:Le dice al navegador que 
+        viene un formulario y que el user dejara informacion que tendriamos que enviar al server
+        Etiqueta label: Atributo for, es como un identificador de lo que se introduce en el form
+        Etiqueta input: Atributo type para el manejo de informacion, recoleccion de info de distintos tipos
+        Etiqueta span: Para agregar texto como descripcion, al lado de la box del form
+        Atributo placeholder: Texto de ejemplo que le dice a la persona que info debe ir alli.
