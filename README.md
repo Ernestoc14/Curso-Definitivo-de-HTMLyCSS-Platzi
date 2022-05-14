@@ -49,6 +49,18 @@ Existen dos maneras de crear una lista con distintas opciones.
         Etiq <Option> dentro de <select>: Opcion de cada input en la lista a seleccionar
 
         La segunda es con etiq <input list="  ">
+        (Usada para muchas opciones)
         Etiq <datalist>: Permite al user escribir en el input y filtrar su resultado. 
         -Id sera igual al valor que tiene list.
         Etiq <Option> dentro de <datalist>: Opcion de cada input en la lista a seleccionar
+
+Existen dos tipos de botones
+        1-Etiq Input type="submit": Por defecto, muestra enviar o submit pero podemos cambiarlo
+        con el atrb value="texto a mostrar" 
+        (Utilizado en forms para enviar informacion)
+
+        2-Etiq Button: Usado en acciones que no correspondan a "enviar" en un forms
+        Muestra el texto entre etiqueta, le podemos poner el 
+        atributo type="submit" para usarla en los formularios para que funcione como input 
+        (Utilizado en cualquier caso que necesitemos un boton)
+        
