@@ -35,5 +35,10 @@ Formularios: --------
         viene un formulario y que el user dejara informacion que tendriamos que enviar al server
         Etiqueta label: Atributo for, es como un identificador de lo que se introduce en el form
         Etiqueta input: Atributo type para el manejo de informacion, recoleccion de info de distintos tipos
+               1-Atributo id para identificarlo, debe ser igual al for de etiq label.
+               2-Atributo name sirve para mandar la info,debe ser el mismo que for y e id
+               3-Atributo type submit para enviar info
+               4-Atrb autocomplete: el navegador nos ayuda con la respuesta que el usuario siempre pone, para ahorrar tiempo la autocompleta 
+               5-Atrb required: Se utiliza para que el user llene los campos que son necesarios (Requeridos)
         Etiqueta span: Para agregar texto como descripcion, al lado de la box del form
         Atributo placeholder: Texto de ejemplo que le dice a la persona que info debe ir alli.
