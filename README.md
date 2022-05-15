@@ -75,3 +75,23 @@ Existen dos tipos de botones
 
 
 CSS  Cascading Style Sheets 
+Para agregar CSS a un HTML usamos:
+Primero creamos un archivo .css
+Etiq <link rel="  " href=" root de css">
+        Atrb href: Nos ayuda a referenciar donde esta el .css file 
+        (Crear y Ligar el archivo css aqui)=> href="./style.css"
+Etiq <style> para agregar pocos estilos de Css
+
+Selectores:
+1-Por elemento de HTML:Parrafo ejm=>p{ css } en el CSS
+2-Por Clase: Atriburo class=" nombre" en HTML dentro de etiq
+        Llamamos como .nombre{ css} en el CSS
+3-Por Id:Art id="nombre" en HTML dentro de etiq
+        Llamamos como #nombre{ css } en el CSS
+
+Pseudo clases y pseudo elementos
+Esto es a lo que le vamos a agregar estilos una vez tengamos la etiq
+-Pseudo Clases: definen el estilo de un estado especial de un elemento
+                :class
+-Pseudo Elemento: definen el estilo de una parte especifica de un elemento
+                ::element
