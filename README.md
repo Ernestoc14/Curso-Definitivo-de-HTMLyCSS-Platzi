@@ -5,9 +5,10 @@ https://platzi.com/cursos/html-css/
 Para comentarios usamos ctrl+/
 Etiquetas para manejo de:
 
--Debemos comprimir la Img para que el peso sea menor y renderize mas rapido en el website
 Imagenes: Mostrar imagenes, src para la root, direccion o url
+-Debemos comprimir la Img para que el peso sea menor y renderize mas rapido en el website
 <Img> nos permite colocar solo una imagen
+        1-Art src: Root, url de donde esta la img
 <Figure> nos permite colocar varias imagener 
         Podemos agregarle descripcion a la img
         con una etiqueta extra (<figcaption>)
@@ -16,9 +17,17 @@ Imagenes: Mostrar imagenes, src para la root, direccion o url
         -figcaption: desc similar a la de alt pero
           que pueda ayudar a dar explicacion de que es la imagen
 Tipos de Imagenes: 
-        -Lossy:(Con perdida)
-        -Lossless:(Sin perdida)
-Videos: Muestra videos, 
+        -Lossy:(Con perdida)Formato con un poco de perdida de calidad, 
+        mejorando la carga mas rapida en el navegador
+           -jpg jpeg gama de colores ilimitadas 
+        -Lossless:(Sin perdida)Formatos sin perdida, misma calidad, imagenes pesadas
+           -gif png  (fondo transparente) 256 colores
+           -SVG vector ligero usado para logotipos 
+        -Retirar metadatos de tus imagenes
+        Metadatos son(fechas de toma de foto, location...)
+        -Verexif 
+
+Videos: Muestra videos, atrributo src para url, direc o root 
         1-atriburo controls, sin valor, para el manejo del
         video, play pause etc
         2-atributo preload = "auto", para que el navegador carge el video 
@@ -63,4 +72,6 @@ Existen dos tipos de botones
         Muestra el texto entre etiqueta, le podemos poner el 
         atributo type="submit" para usarla en los formularios para que funcione como input 
         (Utilizado en cualquier caso que necesitemos un boton)
-        
+
+
+CSS  Cascading Style Sheets 
