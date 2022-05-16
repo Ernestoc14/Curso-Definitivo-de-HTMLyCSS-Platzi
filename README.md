@@ -123,3 +123,16 @@ Tambien podemos hacerlo utilizando el metodo calc(% - px); del Width
                 {  width: calc(50% - 20px); 
                 }
 
+Herencia
+Podemos obtener informacion de los padres (Heredar)
+Se heredan las caracteristicas de las etiq contenedoras 
+        <body>
+           <h1>soy h1<h1>
+        <body>
+        H1 heredara las caract de body
+        -inherit: A la propiedad que se la aplicamos debe heredar los valores de su elemento padre 
+                  Significa (usa el valor de mi padre)
+        -initial: Damos el valor inicial y predefinido por el navegador
+        -upset:  Es una combinacion entre inherit e initial, cuando lo usamos en una propiedad
+                 esta trata de heredar el valor de su elemento padre si este esta disponible, 
+                 sino colocara el valor de la propiedad en su valor inicial
