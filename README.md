@@ -82,7 +82,7 @@ Etiq <link rel="  " href=" root de css">
         (Crear y Ligar el archivo css aqui)=> href="./style.css"
 Etiq <style> para agregar pocos estilos de Css
 
-Selectores:
+Selectores: (el selector universal es el * )
 1-Por elemento de HTML:Parrafo ejm=>p{ css } en el CSS
 2-Por Clase: Atriburo class=" nombre" en HTML dentro de etiq
         Llamamos como .nombre{ css} en el CSS
@@ -95,3 +95,31 @@ Esto es a lo que le vamos a agregar estilos una vez tengamos la etiq
                 :class
 -Pseudo Elemento: definen el estilo de una parte especifica de un elemento
                 ::element
+
+Anatomia o Syntaxis de una regla en CSS
+        -Selector/PseudoClase o PsElemento: El elemento que quieres modificar
+        -Declaracion del Estilo: -Propiedad -Valor de Propiedad
+        Ejm: p (selector){
+                color(propiedad): red(valor de propiedad);
+                -----------declaracion de estilo-------------
+             }
+
+MODELO DE CAJA
+
+        -Margin: Espacio Externo de la caja hacia afuera
+        -Border: Linea que define a cada elemento 
+        -Padding: Espacio Interno de la caja hacia adentro 
+        -Contenido: Elemento(img video texto)
+    Width y Height para posicionar la box (top-right-bottom-left)
+
+Box-sizing: Border-box; Hace que se calcule automaticamente el 
+tamano del elemento con el padding y border para eliminar scroll horizontal.
+        -Suma el padding con el width del elemento 
+Tambien podemos hacerlo utilizando el metodo calc(% - px); del Width
+        -Ejm: Imagina que quieres colocar 2 cajas dentro de una caja padre y quieres que cada una tome el 50% de ancho, pero que cada una tenga un margen a la izquierda de 10px. Si colocas width de 50% a cada caja y además le colocas margen, esto hará que las cajas queden una arriba de la otra, porque al agregarle 20px de espacio en márgenes, vas a hacer que ya no ajuste el 50% a cada caja.
+        (Debes restarle al width, el margin(20px))
+        Para hacer que ambas cajas sigan tomando el 50% contando los márgenes, puedes hacer lo siguiente:
+                .caja-hijo
+                {  width: calc(50% - 20px); 
+                }
+
