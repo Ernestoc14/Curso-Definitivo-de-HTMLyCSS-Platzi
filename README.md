@@ -180,3 +180,6 @@ Posicion
                 -Relative
                 -Fixed
                 -Sticky
+
+Display 
+        
