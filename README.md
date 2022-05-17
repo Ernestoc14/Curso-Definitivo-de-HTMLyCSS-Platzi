@@ -156,3 +156,13 @@ Orden de declaracion - Especificidad
                         siempre seran aplicados los ultimos estilos y puede reescribir(anular o cambiar) los estilos de arriba
 
 Combinadores 
+-Nos permiten combinar multiples selectores y crear mayor especificidad
+1-Hermano cercano(Adjacent sibling): div + p{ }=>Agrega los estilos a etiq <p> cerca de <div>.
+2-Hermano general(General sibling): div ~ p{ }=>Agrega los estilos a etiq <p> si estan en la misma linea 
+3-Hijo Directo(Child): div > p{ }=>Agrega estilos a etiq <p> que tienen padre div, osea estan dentro de <div>
+4-Descendiente(Descendant): div p{ }=>Agrega estilo a TODAS las etiq <p> dentro de <div>
+
+Medidas 
+Algunas medidas cambian o no, sin importar el tamano de la pantalla donde vemos el proyecto
+-Absolutas(No cambian):Px
+-Relativas(Cambian):%, em, rem, max-width/heigth, min-width/heigth, vw, vh
