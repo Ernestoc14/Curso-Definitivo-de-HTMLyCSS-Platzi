@@ -168,3 +168,15 @@ Algunas medidas cambian o no, sin importar el tamano de la pantalla donde vemos 
                        Px, mm, cm, in
 -Relativas(Cambian):Su tamano cambia segun el tamano de la pag.
                      %, em, rem, max-width/heigth, min-width/heigth, vw, vh
+                     -Min y Max: Medidas minimas y maximas 
+                     Min=> se achican hasta x medida
+                     Max=> se agrandan hasta x medida
+
+Posicion
+        Por defecto todo viene en static.
+        Tipos de posicionamiento de elementos
+                -Static
+                -Absolute
+                -Relative
+                -Fixed
+                -Sticky
