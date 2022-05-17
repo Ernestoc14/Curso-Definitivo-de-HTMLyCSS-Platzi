@@ -164,5 +164,7 @@ Combinadores
 
 Medidas 
 Algunas medidas cambian o no, sin importar el tamano de la pantalla donde vemos el proyecto
--Absolutas(No cambian):Px
--Relativas(Cambian):%, em, rem, max-width/heigth, min-width/heigth, vw, vh
+-Absolutas(No cambian):Su tamano no cambia, siempre es el mismo aunque la pag cambie el tamano
+                       Px, mm, cm, in
+-Relativas(Cambian):Su tamano cambia segun el tamano de la pag.
+                     %, em, rem, max-width/heigth, min-width/heigth, vw, vh
