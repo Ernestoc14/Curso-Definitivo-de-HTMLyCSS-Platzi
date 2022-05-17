@@ -154,3 +154,5 @@ Orden de declaracion - Especificidad
                         Se aplican los estilos que esten abajo o de ultimo en el css
                         Ejm: si llamas una clase o id en las primeras lineas y despues llamas la misma a lo ultimo
                         siempre seran aplicados los ultimos estilos y puede reescribir(anular o cambiar) los estilos de arriba
+
+Combinadores 

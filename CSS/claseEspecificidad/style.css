@@ -9,24 +9,21 @@ h1{
     margin-bottom: 10px;
 }
 
-#page-title{ /*llamamos al id con el #  */
-    font-family: Arial, Helvetica, sans-serif;
-}
 .title{     /*llamamos a la clase con el .  */
     font-size: 18px;
     font-family: monospace;
 }
-#main-nav{
+.nav{
     margin-top: 10px;
     list-style-type: none;
     padding-left: 0;
 }
 
-#main-nav li{
+.nav li{
     display: inline-block;
 }
 
-#main-nav a{
+.nav a{
     color: white;
     background-color: #13a4a4;
     padding: 5px;
@@ -34,9 +31,10 @@ h1{
     text-decoration: none;
 }
 
-#main-nav .blog{
+.nav .blog{
     background-color: red;
 }
-/* Los ids estan por encima de las clases 
-los ids son unicos y genericos, las clases son globales(otras clases pueden
+/* No es buena practica usar ids en Css, mejor clases
+Los ids estan por encima de las clases 
+los ids son unicos y genericos y especificos, las clases son globales(otras clases pueden
 tener las mismas caracteristicas)  */
