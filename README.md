@@ -136,3 +136,21 @@ Se heredan las caracteristicas de las etiq contenedoras
         -upset:  Es una combinacion entre inherit e initial, cuando lo usamos en una propiedad
                  esta trata de heredar el valor de su elemento padre si este esta disponible, 
                  sino colocara el valor de la propiedad en su valor inicial
+
+Orden de declaracion - Especificidad 
+        Si dos declaraciones tienen la misma importancia, la especificidad de las reglas decidira cual aplicar
+        Si las reglas tienen la misma especificidad, el orden de las fuentes controla el resultado final
+        Como se controla el orden al declarar CSS?
+        1-Importancia: 1-Hoja de estilo de agente de usuario (Estilo del navegador)
+                       2-Declaraciones normales en hojas de estilo de autor (Nuestro .css) 
+                       3-Declaraciones importantes en hojas de estilos de autor(Utilizar el !important)MalaPractica
+        2-Especificidad: 1-!important
+                         2-Inline styles
+                         3-#id
+                         4-.class
+                         5-tag
+        3-Orden de las fuentes: En tus estilos, las declaraciones al final del documento anularan 
+                                a las que sucedan antes en caso de conflicto. 
+                        Se aplican los estilos que esten abajo o de ultimo en el css
+                        Ejm: si llamas una clase o id en las primeras lineas y despues llamas la misma a lo ultimo
+                        siempre seran aplicados los ultimos estilos y puede reescribir(anular o cambiar) los estilos de arriba
