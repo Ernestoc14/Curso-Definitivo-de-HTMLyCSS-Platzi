@@ -182,4 +182,7 @@ Posicion
                 -Sticky
 
 Display 
+        Display block: Usa todo el espacio sin importar si el contenido lo ocupa
+        Display inline: Usa solo el espacio que ocupa su contenido
+        Display inline block: Combinacion de estos dos, nos permite poner elementos arriba abajo o lateral
         
