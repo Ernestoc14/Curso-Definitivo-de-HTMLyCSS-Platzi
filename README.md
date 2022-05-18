@@ -8,7 +8,8 @@ Etiquetas para manejo de:
 Imagenes: Mostrar imagenes, src para la root, direccion o url
 -Debemos comprimir la Img para que el peso sea menor y renderize mas rapido en el website
 <Img> nos permite colocar solo una imagen
-        1-Art src: Root, url de donde esta la img
+        1-Atr src: Root, url de donde esta la img
+        2-Atr title: Aparece como descripcion cuando el mouse esta sobre la img
 <picture> es el contenedor de una imagen osea que <img> va dentro de <pic>
 <Figure> nos permite colocar varias imagener 
         Podemos agregarle descripcion a la img
@@ -284,4 +285,10 @@ Accesibilidad (Productos para todos)
            Container, Header, Main Content, Sidebar, Footer
 
 Texto
-     
+-No usar el texto en px porque no escala, debemos usar rem     
+
+Labels,alt y titles
+Label: Ayuda al usuario a introducir una input con solo clickear sobre el texto 
+Atributos de <img>
+        Alts: Es una pequena descripcion de la imagen, se mostrara cuando la img no se pueda mostrar
+        Title: Aparece como descripcion cuando el mouse esta sobre la img
