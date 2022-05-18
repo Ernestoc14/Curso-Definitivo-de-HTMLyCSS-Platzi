@@ -260,4 +260,6 @@ Web Fonts
         Lo mas importante es disenar para moviles. (Mobile First)
         Primero disenar para celular, luego breakpoint para tablet y finalmente breakpoint para PC.
         
-
+        Patrones
+        -MostlyFluid
+        -Layout Shifter
