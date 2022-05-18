@@ -9,6 +9,7 @@ Imagenes: Mostrar imagenes, src para la root, direccion o url
 -Debemos comprimir la Img para que el peso sea menor y renderize mas rapido en el website
 <Img> nos permite colocar solo una imagen
         1-Art src: Root, url de donde esta la img
+<picture> es el contenedor de una imagen osea que <img> va dentro de <pic>
 <Figure> nos permite colocar varias imagener 
         Podemos agregarle descripcion a la img
         con una etiqueta extra (<figcaption>)
@@ -249,14 +250,16 @@ Web Fonts
                 Hacer los proyectos multiplataformas, que se adapten a distintos dispositivos
                 El primer archivo .css debe estar enfocado al mobile device (Smarthphone)
                 A partir del segundo archivo .css utilizaremos los BREAKPOINTS.
-        Media Queris: Son conficionales, no es la mejor practica ponerlo en CSS.
+        Media Queries: Son conficionales, no es la mejor practica ponerlo en CSS.
                       Forma de implementacion es empezar por las pantallas pequenas y terminar por las mas amplias  
-                **Para aplicar Media Queris con buenas practicas debemos hacerlo en el <header> de HTML
+                **Para aplicar Media Queries con buenas practicas debemos hacerlo en el <header> de HTML
                 con etiq <link href= "(device).css" rel="stylesheet" media="screen and(min-width: #px)">
                         -De esta manera solo se descarga el codigo necesario para ese dispositivo, 
-                        si hacemos media queris desde CSS entonces se descarga todo el code sin importar el dispositivo  
+                        si hacemos media queris desde CSS entonces se descarga todo el code sin importar el dispositivo 
+                En caso de usar un solo archivo .CSS los media queries deben ir al final 
         Breakpoints: Cuando la pantalla sea de cierto tamano, se generara un cambio 
              para reposicionar o redimencionar items(contenedores)
+             Maximo 3 breakpoints por proyecto
         Lo mas importante es disenar para moviles. (Mobile First)
         Primero disenar para celular, luego breakpoint para tablet y finalmente breakpoint para PC.
         
@@ -264,3 +267,21 @@ Web Fonts
         -MostlyFluid
         -Layout Shifter
         -Column Drop
+
+        Recomendaciones
+        -Separa siempre tus archivos de CSS por un breakpoint
+        mydevice.io => Aqui puedes ver el width o tamano de viewport de distintos dispositivos  
+                      (movil-tablet)  
+        Imagenes Responsives
+        -Etiq <picture>: Es contenedor de una imagen, dentro debe ir 
+                        <soure media="min-width: #px" srcset="./img_root.jpg">
+                Complementarlas con la etiq <source> en caso de manejar varias imagenes
+                que es lo ideal si queremos hacer imagenes responsives
+        -width: 100%; es lo mejor, buena practica
+
+Accesibilidad (Productos para todos)
+-Semantica: Etiquetas adecuadas al contenido de cada seccion
+           Container, Header, Main Content, Sidebar, Footer
+
+Texto
+     
