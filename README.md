@@ -230,3 +230,34 @@ Variables(Custom Properties)
                 Syntaxis de llamado=>  var(--nombre-de-var);
 
 Web Fonts
+
+        Fuentes por Defecto:
+
+        Genericas    |                 Fuentes
+        Serif        |   Times New Roman  -- Georgia 
+        sans-serif   |  Helvetica        --  Verdana
+        cursive      | Dancing Script   --  Great Vibes
+        monoscape    |  Courier New      --  Roboto Mono
+        
+       Puedes usar google.fonts para fuentes gratis, descargarlas para el protecto
+       Buenas practicas al usar fonts externas
+                -Solo cargar 1 fuente por proyecto
+                -importarlas siempre en la etiq <head>
+
+    -------------------------------RESPONSIVE DESIGN--------------------------------------------
+                                   MOBILE FIRST / ONLY 
+                Hacer los proyectos multiplataformas, que se adapten a distintos dispositivos
+                El primer archivo .css debe estar enfocado al mobile device (Smarthphone)
+                A partir del segundo archivo .css utilizaremos los BREAKPOINTS.
+        Media Queris: Son conficionales, no es la mejor practica ponerlo en CSS.
+                      Forma de implementacion es empezar por las pantallas pequenas y terminar por las mas amplias  
+                **Para aplicar Media Queris con buenas practicas debemos hacerlo en el <header> de HTML
+                con etiq <link href= "(device).css" rel="stylesheet" media="screen and(min-width: #px)">
+                        -De esta manera solo se descarga el codigo necesario para ese dispositivo, 
+                        si hacemos media queris desde CSS entonces se descarga todo el code sin importar el dispositivo  
+        Breakpoints: Cuando la pantalla sea de cierto tamano, se generara un cambio 
+             para reposicionar o redimencionar items(contenedores)
+        Lo mas importante es disenar para moviles. (Mobile First)
+        Primero disenar para celular, luego breakpoint para tablet y finalmente breakpoint para PC.
+        
+
