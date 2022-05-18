@@ -74,9 +74,16 @@ Existen dos tipos de botones
         (Utilizado en cualquier caso que necesitemos un boton)
 
 
-CSS  Cascading Style Sheets 
+-----------------------------------CSS  Cascading Style Sheets -----------------------------
+
 Para agregar CSS a un HTML usamos:
 Primero creamos un archivo .css
+En .css usamos:
+html{
+        font-size: 62.5%;
+}
+Para que 1rem sea igual a 10px
+
 Etiq <link rel="  " href=" root de css">
         Atrb href: Nos ayuda a referenciar donde esta el .css file 
         (Crear y Ligar el archivo css aqui)=> href="./style.css"
@@ -216,4 +223,10 @@ Display
 
 Variables(Custom Properties)
         -Podemos guardar un valor para reutilizarlo varias veces
-        
+        Mayor utilidad en proyectos grandes y archivos extensos de HTML y CSS
+        Se declaran dentro del selector=> :root{  } para que sea global
+                Syntaxis=>  --Nombre-de-variable: VALOR;
+        Se llama para usarlas como:
+                Syntaxis de llamado=>  var(--nombre-de-var);
+
+Web Fonts
