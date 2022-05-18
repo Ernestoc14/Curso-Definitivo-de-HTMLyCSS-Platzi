@@ -28,3 +28,4 @@ Malas Prácticas dichas en Clase Hasta Ahora
  vida más fácil al usuario
 -No usar el atributo required en los campos obligatorios de tu formulario como una 
  primera capa de seguridad
+-Que el user tenga que hacer scroll de manera horizontal

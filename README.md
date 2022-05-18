@@ -185,4 +185,35 @@ Display
         Display block: Usa todo el espacio sin importar si el contenido lo ocupa
         Display inline: Usa solo el espacio que ocupa su contenido
         Display inline block: Combinacion de estos dos, nos permite poner elementos arriba abajo o lateral
+
+       -Display flex: Permite que el contenedor padre sea flexible a los cambios que puedan 
+                tener los elements hijos en su alineacion. 
+                Una vez tengamos el elemento padre con display flex tenemos otras propiedades que podemos usar
+                Si el padre tiene dis flex los hijos lo tienen tambien
+                -Flex-direction:Alineacion de elementos hijos
+                    Valores    -Row:(default)Horizontal
+                               -Column:Vertical         
+                -Flex-wrap:Permite que un elemento haga un salto de linea si es muy grande
+                -Justify-content:Alinear el contenido de forma horizontal
+                        Valores
+                                -Flex-start:Alinearlos al comienzo(izq)
+                                -Flex-end:Alinearlos al final(der)
+                                -Center:Alinear los items en el centro del contenedor(mid-horizt)
+                                -Space-between:Agrega mismo espacio entre items, no en los extremos
+                                -Space-around:Agrega espacio entre los items (No es espacio igual para todos)
+                                -Space-evenly: Le da el mismo espacio alrededor de cada item (Espacio perfecto)
+                -Align-items:Alinea los elementos hijos de forma vertical
+                        Valores
+                                -Flex-start:Alinearlos desde arriba(top)
+                                -Flex-end:Alinearlos abajo(bottom)
+                                -Center:Alinear los items en el centro del contenedor(mid-vertc)
+                                -Stretch: Estira el alto de los items hijos al 100% del item pafre
+                                -Base-line: Escala el item al tamano de su contenido
+                -Order:(Si no le coloco order a un item este se desplazara a la izq por default)
+                        Especifica el orden del item
+                -Flex-grow:El item crecera hasta rellenar el espacio sobrante
+                -Flex-basis:Especifica el tamano inicial del elemento flexible
+
+Variables(Custom Properties)
+        -Podemos guardar un valor para reutilizarlo varias veces
         
