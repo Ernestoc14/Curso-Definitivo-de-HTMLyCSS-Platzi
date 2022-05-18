@@ -291,4 +291,4 @@ Labels,alt y titles
 Label: Ayuda al usuario a introducir una input con solo clickear sobre el texto 
 Atributos de <img>
         Alts: Es una pequena descripcion de la imagen, se mostrara cuando la img no se pueda mostrar
-        Title: Aparece como descripcion cuando el mouse esta sobre la img
+        Title: Aparece como descripcion cuando el mouse esta sobre la imagen
