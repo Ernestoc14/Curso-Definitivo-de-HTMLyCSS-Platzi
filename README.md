@@ -184,9 +184,9 @@ Algunas medidas cambian o no, sin importar el tamano de la pantalla donde vemos 
 Posicion
         Por defecto todo viene en static.
         Tipos de posicionamiento de elementos
-                -Static
-                -Absolute
-                -Relative
+                -Static: Viene por defecto en todos los elementos HTML
+                -Absolute: No esta en el flujo normal de la pag, toma como referencia el navegador o el elemento padre mas cercano
+                -Relative: Podemos posicionar le elemento respecto al flujo normal de la pagina
                 -Fixed
                 -Sticky
 
